@@ -1,0 +1,36 @@
+{
+  "name": "app-manager",
+  "version": "0.1.0",
+  "description": "README.txt",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "crypto": "~0.0.3",
+    "cryptojs": "~2.5.3",
+    "exec-sync": "~0.1.5",
+    "libxmljs": "~0.7.0",
+    "connect-mongodb": "~1.1.5",
+    "matador": "~1.1.22-beta",
+    "mongodb": "~1.0.2",
+    "mongoose": "~2.8.3",
+    "node-zip": "~0.0.2",
+    "time": "~0.9.0",
+    "validator": "~0.4.25",
+    "step": "~0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:ykmi/application-manager.git"
+  },
+  "author": "xxx",
+  "license": "BSD",
+  "gitHead": "67bbf821a6fd3efed6f3bf1bf41ea03a27f901c5",
+  "readmeFilename": "README.txt"
+}

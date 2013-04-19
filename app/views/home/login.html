@@ -1,0 +1,57 @@
+<!--
+ login.html
+ @license Dual licensed under the MIT or GPL Version 2 licenses.
+ @author xxxzxxx
+ Copyright 2013, Primitive, inc.
+ The MIT Licens (http://opensource.org/licenses/mit-license.php)
+ GPL Version 2 licenses (http://www.gnu.org/licenses/gpl-2.0.html)
+ -->
+<script language="javascript">
+Ext.onReady(function()
+{
+    var form = new Ext.form.FormPanel({
+        renderTo:'form',
+        title:'LoginForm',
+        bodyStyle:{
+            padding:'8px'
+        },
+        labelWidth:180,
+        items:[
+            {
+                xtype:'textfield',
+                name:'UserID',
+                fieldLabel:'userid',
+                vtype: 'email',
+                anchor:'100%'
+            },
+            {
+                xtype:'textfield',
+                name:'Password',
+                fieldLabel:'password',
+                inputType: 'password',
+                anchor:'100%'
+            },
+        ],
+        buttonAlign:'center',
+        buttons:[
+            {
+                text:'Login',
+                iconCls:'tick',
+                handler:function(){
+//                    var formFields = form.getForm();
+//                    form.submit();
+                    Ext.get('mainForm').dom.submit();
+                }
+            }
+        ]
+    });
+});
+</script>
+<body>
+    <div style="width:500px;margin:0 auto;padding:15px;">
+        <form method="post" action="/login" id="mainForm"��          <p style="font-weight:bold;padding:3px;margin-bottom:10px;"></p>
+          <div id="form"></div>
+          <br/>
+        </form>
+    </div>
+</body>

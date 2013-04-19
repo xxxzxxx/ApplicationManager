@@ -1,0 +1,2 @@
+{ "_id" : { "$oid" : "51382d4dbfe3a0e2060000d6" }, "createAt" : { "$date" : 1362636109177 }, "updateAt" : { "$date" : 1362636109177 }, "value" : "ja" }
+{ "_id" : { "$oid" : "51382d5bbfe3a0e2060000d7" }, "createAt" : { "$date" : 1362636123718 }, "updateAt" : { "$date" : 1362636123718 }, "value" : "en" }
