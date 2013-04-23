@@ -41,7 +41,7 @@ Ext.define('AM.view.package.resources.Edit', {
 					regions_combo,
 					{xtype: 'textfield'	 ,name: 'title'		,allowBlank:false,fieldLabel: 'title',anchor: '100%',},
 					{xtype: 'textareafield' ,name: 'description' ,allowBlank:false,fieldLabel: 'description',anchor: '100%',},
-					{xtype: 'textfield'	 ,name: 'copyright'	,allowBlank:false,fieldLabel: 'copyright',anchor: '100%',},
+					{xtype: 'textfield'	 ,name: 'extra'	,fieldLabel: 'extra',anchor: '100%',},
 				]
 			}
 		];
