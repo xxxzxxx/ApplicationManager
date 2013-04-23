@@ -46,7 +46,7 @@ module.exports = function (app, config) {
 					 		locale:data.locale,
 					 		title:data.title,
 					 		description:data.description,
-					 		copyright:data.copyright,
+					 		extra:data.extra,
 				 	};
 				 	return modify;
 			 	}

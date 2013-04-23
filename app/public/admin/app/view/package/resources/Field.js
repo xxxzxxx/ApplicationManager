@@ -27,7 +27,7 @@ Ext.define('AM.view.package.resources.Field' ,{
 			{text: 'locale' ,dataIndex: 'locale', width: 30,},
 			{flex: 1,text: 'title'	  ,dataIndex: 'title'},
 			{flex: 1,text: 'description',dataIndex: 'description'},
-			{flex: 1,text: 'copyright'  ,dataIndex: 'copyright'},
+			{flex: 1,text: 'extra'  ,dataIndex: 'extra'},
 		];
 		this.dockedItems = [{
 			dock: 'top',

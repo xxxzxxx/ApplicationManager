@@ -15,6 +15,6 @@ Ext.define('AM.model.package.Resource', {
 		{name: 'locale', type: 'string'},
 		{name: 'title', type: 'string'},
 		{name: 'description', type: 'string'},
-		{name: 'copyright', type: 'string'},
+		{name: 'extra', type: 'string'},
 	],
 })

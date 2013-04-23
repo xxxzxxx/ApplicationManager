@@ -20,7 +20,7 @@ module.exports = function (app, config) {
 				 locale:		  { type: String }
 				,title:			{ type: String }
 				,description:	 { type: String }
-				,copyright:		{ type: String }
+				,extra:		{ type: String }
 			});
 			this.DBModel = this.mongoose.model(
 				'packages',
