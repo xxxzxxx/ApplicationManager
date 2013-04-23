@@ -81,9 +81,9 @@ Ext.define('AM.view.package.List' ,{
 					'</tpl>','</ol>');
 				return tpl.apply(rec.resources().data);
 			}},
-			{flex: 1,header: 'copyright',  renderer: function(value, meta, rec) {
+			{flex: 1,header: 'extra',  renderer: function(value, meta, rec) {
 				var tpl = new Ext.XTemplate('<ol>','<tpl for="items">',
-					'<li>{data.copyright}</li>',
+					'<li>{data.extra}</li>',
 					'</tpl>','</ol>');
 				return tpl.apply(rec.resources().data);
 			}},
